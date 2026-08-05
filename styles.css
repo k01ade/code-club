@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/*the two fonts that we will be using for the website */
+
+/*the colour scheme: 457CBF (main blue colour) - D5241C (red) - 09376e (darker blue) - FF7B74 (pink/light red)*/
+
+p {
+    font-family: 'Parkinsans';
+    font-size: 20px;
+    color:#457CBF;
+    font-weight: bold;
+}
+
+.p-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.p-container-no-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.red-text {
+    font-family: 'Parkinsans';
+    font-size: 20px;
+    color:#D5241C;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: #0F4B92;
+    border: 6px solid #09376e;
+    width: 700px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.box2 {
+    background-color: #0F4B92;
+    border: 6px solid #09376e;
+    width: 1000px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    padding-top: 10px;
+    margin: 36px, 0px, 36px, 0px;
+    text-align: center;
+}
+
+.box3 {
+    background-color: #0F4B92;
+    border: 6px solid #09376e;
+    width: 500px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    padding-top: 10px;
+    margin: 36px;
+    text-align: center;
+    float: left;
+}
+
+.box1 p {
+    color:#ffffff;
+}
+
+.box2 p {
+    color:#ffffff
+}
+
+.box3 p {
+    color:#ffffff
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.links a {
+        text-decoration: none;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-family: 'Parkinsans';
+        font-size: 20px;
+        color: #D5241C;
+
+}
+
+.links a:last-child {
+    border-right: none;
+}
+
+.link-in-text {
+    color: #FF7B74;
+    text-decoration: none
+}
+
+#title p{
+    color: #457CBF;
+    font-family: 'Space Grotesk';
+    font-weight: bold;
+    font-size: 120px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 33px;
+}
+
+#slogan {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Parkinsans';
+    font-weight: bold;
+    color: #457CBF;
+    font-size: 24px;
+}
+
+#euler {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-right: 90px;
+    margin-left:90px;
+    border-radius: 20px;
+}
+
+.resources-we-love {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hopper {
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.nea-advice { /*exact same as 'resources-we-love so maybe it can be made into one class (theres quite a bit of redundancy in the code as is at the moment lmao)'*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 36px;
+}
+
+#gates {
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.band {
+    width: 100%;
+    height: 360px;
+    background-color: #09376e;
+    display: flex;
+    align-items: center;
+}
+
+.more-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
