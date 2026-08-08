@@ -188,3 +188,44 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+table, th, td {
+    border: 1px solid #09376e;
+    border-collapse: collapse;
+
+    font-family: 'Parkinsans';
+    font-size: 15px;
+    color:#457CBF;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+
+    
+
+}
+
+td{
+    font-size: 12px;
+}
+
+
+
+table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+th {
+    background-color: #0F4B92;
+    color: white;
+}
+
+#currentpagecolour {
+    color: #09376e;
+
+}
