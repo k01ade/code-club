@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<htmllang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -11,8 +11,6 @@
 </head>
 
 <body>
-
-    <!-- HEADER -->
 
     <header class="header">
 
@@ -30,8 +28,6 @@
 
     </header>
 
-
-    <!-- MAIN CONTENT -->
 
     <main>
 
@@ -54,8 +50,6 @@
 
         </section>
 
-
-        <!-- UPCOMING EVENTS -->
 
         <section class="upcoming">
 
@@ -110,8 +104,6 @@
                 </article>
 
 
-                <!-- EVENT 2 -->
-
                 <article class="event-card">
 
                     <div class="event-image">
@@ -156,8 +148,6 @@
                 </article>
 
 
-                <!-- EVENT 3 -->
-
                 <article class="event-card">
 
                     <div class="event-content">
@@ -201,8 +191,6 @@
         </section>
 
 
-        <!-- PAST EVENTS -->
-
         <section class="past-events">
 
             <h2>PAST EVENTS</h2>
@@ -235,8 +223,6 @@
         </section>
 
 
-        <!-- JOIN SECTION -->
-
         <section class="join-section">
 
             <h2>JOIN US HERE</h2>
@@ -254,8 +240,6 @@
 
     </main>
 
-
-    <!-- FOOTER -->
 
     <footer>
 
