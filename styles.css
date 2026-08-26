@@ -189,6 +189,8 @@ p {
     justify-content: center;
 }
 
+/*start of seyi's css*/
+
 table, th, td {
     border: 1px solid #09376e;
     border-collapse: collapse;
@@ -229,3 +231,85 @@ th {
     color: #09376e;
 
 }
+
+/*the start of Toba's css, ill try to resolve any inconsistencies with mine or seyis css*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Parkinsans';
+    background-color: #ffffff;
+    color: #1a202c;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+    padding: 20px;
+}
+.page-container {
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+}
+.logo-container {
+    margin-bottom: 20px;
+    /* display: flex;
+    justify-content: center; */
+}
+.main-title {
+    color: #457CBF;
+    font-family: 'Space Grotesk';
+    margin: 35px 0px 35px 0px;
+    display: flex;
+    justify-content: center;
+}
+.main-title p{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    font-family: 'Space Grotesk';
+}
+.card {
+    background: #0F4B92;
+    border: 6px solid #09376e;
+    border-radius: 16px;
+    padding: 25px 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+.card p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .card-primary {
+    background-color: #0F4B92; 
+    width: 800px;
+    display: flex;
+    justify-content: center;
+} */
+/*        @media (max-width: 480px) {
+            .main-title {
+                font-size: 1.5rem;
+            }
+            .card {
+                padding: 20px;
+            }
+            .card p {
+                font-size: 0.95rem;
+            }
+        }
+*/
