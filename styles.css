@@ -141,6 +141,7 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    width: 98%;
 }
 
 .links a {
@@ -207,6 +208,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 3%;
 }
 @media (max-width: 600px) {
     .resources-we-love {
