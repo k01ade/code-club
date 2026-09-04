@@ -198,8 +198,8 @@ p {
     max-height: 360px;
     width: auto;
     border-radius: 20px;
-    margin-right: clamp(90px, 9vw, 180px);
-    margin-left: clamp(36px, 3vw, 90px);
+    margin-right: 15%;
+    margin-left: 20%;
     border-radius: 10%;
 }
 
