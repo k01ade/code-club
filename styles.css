@@ -140,19 +140,18 @@ p {
 .links {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-top: 30px;
-    width: 98%;
 }
 
 .links a {
-        text-decoration: none;
-        padding-right: 40px;
-        padding-left: 40px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        font-family: 'Parkinsans';
-        font-size: clamp(8px, 3vw, 20px);
-        color: #D5241C;
+    text-decoration: none;
+    padding: 7px 20px;
+    font-family: 'Parkinsans';
+    font-size: clamp(12px, 3vw, 20px);
+    color: #D5241C;
 }
 
 .links a:last-child {
@@ -209,6 +208,7 @@ p {
     align-items: center;
     justify-content: center;
     padding: 3%;
+    padding-bottom: 0;
 }
 @media (max-width: 600px) {
     .resources-we-love {
@@ -249,7 +249,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 36px;
+    padding: 2%;
 }
 
 #gates {
