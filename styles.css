@@ -6,7 +6,7 @@
 
 p {
     font-family: 'Parkinsans';
-    font-size: 20px;
+    font-size: clamp(8px, 5vw, 20px);
     color:#457CBF;
     font-weight: bold;
 }
@@ -15,18 +15,18 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;
+    margin: clamp(8px, 3vw, 20px);
 }
 
 .p-container-no-box {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: clamp(8px, 3vw, 20px);
 }
 
 .red-text {
     font-family: 'Parkinsans';
-    font-size: 20px;
+    margin: clamp(8px, 3vw, 20px);
     color:#D5241C;
     font-weight: bold;
 }
@@ -34,29 +34,31 @@ p {
 .box1 {
     background-color: #0F4B92;
     border: 6px solid #09376e;
-    width: 700px;
-    border-radius: 70px;
+    width: 50%;
+    max-width: 700px;
+    border-radius: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
-    padding-top: 10px;
+    padding: clamp(10.5px, 3vw, 25px);
+    padding-top: clamp(5px, 3vw, 10px);
     margin: 0 auto;
-    margin-top: 36px;
+    margin-top: clamp(15px, 3vw, 36px);
     text-align: center;
 }
 
 .box2 {
     background-color: #0F4B92;
     border: 6px solid #09376e;
-    width: 1000px;
-    border-radius: 70px;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 0.07%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px;
+    padding: 1%;
     padding-top: 10px;
-    margin: 36px, 0px, 36px, 0px;
+    margin: 0.04%, 0%, 0.04%, 0%;
     text-align: center;
     flex-direction: column;
 }
@@ -64,12 +66,13 @@ p {
 .box3 {
     background-color: #0F4B92;
     border: 6px solid #09376e;
-    width: 500px;
-    border-radius: 70px;
+    width: 40%;
+    max-width: 500px;
+    border-radius: 0.14%;
     display: flex;
     align-items: center;
-    padding: 25px;
-    padding-top: 10px;
+    padding: 1%;
+    padding-top: 0.55%;
     margin: 36px;
     text-align: center;
     float: left;
@@ -100,7 +103,7 @@ p {
         padding-top: 7px;
         padding-bottom: 7px;
         font-family: 'Parkinsans';
-        font-size: 20px;
+        font-size: clamp(8px, 3vw, 20px);
         color: #D5241C;
 
 }
@@ -118,7 +121,7 @@ p {
     color: #457CBF;
     font-family: 'Space Grotesk';
     font-weight: bold;
-    font-size: 120px;
+    font-size: clamp(50px, 3vw, 120px);
 }
 
 #title {
@@ -136,7 +139,7 @@ p {
     font-family: 'Parkinsans';
     font-weight: bold;
     color: #457CBF;
-    font-size: 24px;
+    font-size: clamp(10px, 3vw, 24px);
 }
 
 #euler {
@@ -194,7 +197,7 @@ table, th, td {
     border-collapse: collapse;
 
     font-family: 'Parkinsans';
-    font-size: 15px;
+    font-size: clamp(6.25px, 3vw, 15px);
     color:#457CBF;
     font-weight: bold;
 }
@@ -208,7 +211,7 @@ th, td {
 }
 
 td{
-    font-size: 12px;
+    font-size: clamp(5px, 3vw, 12px);
 }
 
 
@@ -258,7 +261,7 @@ body {
     justify-content: center;
 }
 .main-title p{
-    font-size: 30px;
+    font-size: clamp(12.5px, 3vw, 30px);
     font-weight: 800;
     letter-spacing: 0.5px;
     font-family: 'Space Grotesk';
@@ -330,7 +333,7 @@ body {
 
 .event-description{
     color: #FF7B74 !important;
-    font-size: 15px;
+    font-size: clamp(6.25px, 3vw, 15px);
     width: 900px;
     text-align: center;
     font-weight: bold!important;
@@ -339,11 +342,11 @@ body {
 
 .event-date{
     color: #D5241C !important;
-    font-size: 14px;
+    font-size: clamp(6px, 3vw, 14px);
     text-align: right;
-    font-weight: 30px !important;
+    font-weight: bold !important;
     
     position: absolute;
-    left: calc(50% + 450px);
+    left: calc(50% + clamp(0px, 23vw, 450px));
     transform: translateY(30px);
 }
