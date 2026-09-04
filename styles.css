@@ -210,7 +210,7 @@ p {
     flex-direction: row;
     align-items: center;
     }
-    .euler {
+    #euler {
     height: 10%;
     max-height: 100px;
     }
@@ -349,6 +349,17 @@ body {
     display: flex;
     justify-content: center;
     width: 80%;
+    @media (max-width: 480px) {
+            .main-title {
+                font-size: 1.5rem;
+            }
+            .card {
+                padding: 20px;
+            }
+            .card p {
+                font-size: 0.95rem;
+            }
+        }
 }
 
 .card p {
