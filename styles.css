@@ -36,7 +36,7 @@ p {
     border: 6px solid #09376e;
     width: 50%;
     max-width: 700px;
-    border-radius: 20%;
+    border-radius: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ p {
     background-color: #0F4B92;
     border: 6px solid #09376e;
     width: 95%;
-    border-radius: 20%;
+    border-radius: 10%;
     padding: clamp(10.5px, 3vw, 25px);
     padding-top: clamp(5px, 3vw, 10px);
     margin: 0 auto;
@@ -66,7 +66,7 @@ p {
     border: 6px solid #09376e;
     width: 80%;
     max-width: 1000px;
-    border-radius: 20%;
+    border-radius: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,7 +225,7 @@ p {
     max-height: 300px;
     width: auto;
     border-radius: 20px;
-    margin: margin: clamp(9px, 5vw, 30px);;
+    margin: clamp(9px, 5vw, 30px);
 }
 
 .nea-advice { /*exact same as 'resources-we-love so maybe it can be made into one class (theres quite a bit of redundancy in the project at the moment)'*/
@@ -236,6 +236,8 @@ p {
 }
 
 #gates {
+    height: 20%;
+    max-height: 300px;
     width: auto;
     border-radius: 20px;
     margin: 30px;
@@ -398,7 +400,7 @@ body {
 .event-img{
     height: 300px;
     width: auto;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 30px 0px 10px 0px;
     /*goal is to keep height 300 for all event images*/
 }
