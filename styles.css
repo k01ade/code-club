@@ -214,6 +214,21 @@ p {
     height: 10%;
     max-height: 100px;
     }
+    .band {
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        height: auto;
+    }
+    #hopper {
+    height: 10%;
+    max-height: 100px;
+    }
+    #gates {
+    height: 10%;
+    max-height: 100px;
+    }
 }
 
 #hopper {
@@ -248,15 +263,6 @@ p {
     margin: 0;
 }
 
-@media (max-width: 600px) {
-    .band {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #ffffff;
-        height: auto;
-    }
-}
 
 .more-info {
     display: flex;
