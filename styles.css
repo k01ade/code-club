@@ -222,11 +222,11 @@ p {
         height: auto;
     }
     #hopper {
-    height: 10%;
+    height: 5%;
     max-height: 100px;
     }
     #gates {
-    height: 10%;
+    height: 5%;
     max-height: 100px;
     }
 }
