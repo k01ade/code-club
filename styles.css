@@ -6,9 +6,9 @@
 
 p {
     font-family: 'Parkinsans';
-    font-size: clamp(5px, 2vw, 20px);
+    font-size: clamp(8px, 2vw, 20px);
     color:#457CBF;
-    font-weight: bold;
+    font-weight: semi-bold;
     justify-content: center;
     align-items: center;
 }
@@ -261,11 +261,11 @@ p {
         height: auto;
     }
     #hopper {
-        height: 100px;
+        height: 150px;
         width: auto;
     }
     #gates {
-        height: 100px;
+        height: 150px;
         width: auto;
     }
     .links {
@@ -383,7 +383,7 @@ body {
 
 .card p {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     line-height: 1.6;
     }
 
