@@ -179,7 +179,7 @@ p {
 }
 
 #title img {
-    width: clamp(125px, 95vw, 300px);
+    width: 700px;
     height: auto;
 }
 
@@ -257,7 +257,7 @@ p {
         /* flex-direction: column; */
         align-items: center;
         justify-content: center;
-        background-color: #ffffff;
+        background-color: #09376e;
         height: auto;
     }
     #hopper {
@@ -270,6 +270,10 @@ p {
     }
     .links {
         gap: 4px
+    }
+    #title img {
+    width: clamp(100px, 95vw, 300px);
+    height: auto;
     }
 }
 
