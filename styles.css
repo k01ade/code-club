@@ -6,9 +6,9 @@
 
 p {
     font-family: 'Parkinsans';
-    font-size: clamp(8px, 2vw, 20px);
+    font-size: clamp(12px, 3vw, 20px);
     color:#457CBF;
-    font-weight: semi-bold;
+    font-weight: 600;
     justify-content: center;
     align-items: center;
 }
@@ -125,16 +125,8 @@ p {
     }
 }
 
-.box1 p {
-    color:#ffffff;
-}
-
-.box2 p {
-    color:#ffffff;
-}
-
-.box3 p {
-    color:#ffffff;
+.box1 p, .box2 p, .box3 p {
+    color: #ffffff;
 }
 
 .links {
@@ -243,16 +235,19 @@ p {
     margin: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) { /*the main small-screen styling*/
     .resources-we-love {
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-items: flex-start;
     }
+
     #euler {
     height: 100px;
     width: auto;
     }
+
     .band {
         /* flex-direction: column; */
         align-items: center;
@@ -260,20 +255,29 @@ p {
         background-color: #09376e;
         height: auto;
     }
+
     #hopper {
         height: 150px;
         width: auto;
     }
+
     #gates {
         height: 150px;
         width: auto;
     }
+
     .links {
         gap: 4px
     }
+
     #title img {
     width: clamp(100px, 95vw, 300px);
     height: auto;
+    }
+
+    p {
+    line-height: 1.4;
+    font-size: medium;
     }
 }
 
@@ -288,7 +292,7 @@ table, th, td {
     border-collapse: collapse;
 
     font-family: 'Parkinsans';
-    font-size: clamp(6.25px, 3vw, 15px);
+    font-size: clamp(10px, 3vw, 15px);
     color:#457CBF;
     font-weight: bold;
 }
@@ -383,7 +387,7 @@ body {
 
 .card p {
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 0.9rem; /*change back to 1.2*/
     line-height: 1.6;
     }
 
