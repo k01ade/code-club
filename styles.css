@@ -6,7 +6,7 @@
 
 p {
     font-family: 'Parkinsans';
-    font-size: clamp(9px, 4vw, 20px);
+    font-size: clamp(5px, 4vw, 20px);
     color:#457CBF;
     font-weight: 600;
     justify-content: center;
@@ -244,6 +244,7 @@ p {
     }
 
     #euler {
+    margin-top: 15px;
     height: 100px;
     width: auto;
     }
