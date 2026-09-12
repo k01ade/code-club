@@ -41,11 +41,11 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: clamp(10.5px, 3vw, 25px);
     padding-top: clamp(5px, 3vw, 10px);
     margin: 0 auto;
     margin-top: clamp(15px, 3vw, 36px);
-    text-align: center;
 }
 @media (max-width: 600px) {
     .box1 {
@@ -55,7 +55,6 @@ p {
     padding: clamp(10.5px, 3vw, 25px);
     padding-top: clamp(5px, 3vw, 10px);
     margin: 0 auto;
-    margin-top: clamp(15px, 3vw, 36px);
     margin-top: clamp(15px, 3vw, 36px);
     text-align: center;
     }
@@ -187,13 +186,11 @@ p {
 }
 
 #euler {
-    float: right;
     height: 65%;
     max-height: 360px;
     width: auto;
-    border-radius: 20px;
-    margin-right: 3%;
-    margin-left: 7%;
+    margin-right: 15%;
+    margin-left: 3%;
     border-radius: 10%;
 }
 
@@ -233,6 +230,8 @@ p {
     display: flex;
     align-items: center;
     margin: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 600px) { /*the main small-screen styling*/
@@ -250,7 +249,6 @@ p {
     }
 
     .band {
-        /* flex-direction: column; */
         align-items: center;
         justify-content: center;
         background-color: #09376e;
