@@ -35,8 +35,8 @@ p {
 .box1 {
     background-color: #0F4B92;
     border: 6px solid #09376e;
-    width: 68%;
-    max-width: 700px;
+    width: 80%;
+    max-width: 1000px;
     border-radius: 16px;
     display: flex;
     justify-content: center;
@@ -142,7 +142,7 @@ p {
     font-family: 'Parkinsans';
     font-size: clamp(12px, 3vw, 20px);
     color: #D5241C;
-    margin: clamp(10px, 3vw, 20px);
+    margin: clamp(7px, 3vw, 15px);
     margin-top: 7px;
     padding: 2px;
 }
@@ -153,7 +153,7 @@ p {
 
 .link-in-text {
     color: #FF7B74;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #title p{
@@ -189,8 +189,6 @@ p {
     height: 65%;
     max-height: 360px;
     width: auto;
-    margin-right: 15%;
-    margin-left: 3%;
     border-radius: 10%;
 }
 
@@ -198,7 +196,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3%;
+    padding: 1%;
     padding-bottom: 0;
 }
 
