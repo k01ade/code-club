@@ -57,6 +57,8 @@ p {
     margin: 0 auto;
     margin-top: clamp(15px, 3vw, 36px);
     text-align: center;
+    display: flex;
+    flex-direction: column;
     }
 }
 
