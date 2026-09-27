@@ -82,7 +82,7 @@ p {
     .box2 {
     background-color: #0F4B92;
     border: 6px solid #09376e;
-    width: 80%;
+    width: 90%;
     max-width: 1000px;
     display: flex;
     align-items: center;
@@ -248,6 +248,10 @@ p {
     width: auto;
     }
 
+    #euler-text {
+        font-size: small;
+    }
+
     .band {
         align-items: center;
         justify-content: center;
@@ -277,6 +281,14 @@ p {
     p {
     line-height: 1.4;
     font-size: medium;
+    }
+
+    .upcoming {
+    margin: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 }
 
@@ -370,7 +382,8 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 60%;
+    font-size: clamp(10px, 6vw, 40px);
     @media (max-width: 480px) {
             .main-title {
                 font-size: 1.5rem;
@@ -429,9 +442,10 @@ body {
 }
 
 .event-img{
-    height: 300px;
+    height: 65%;
+    max-height: 360px;
     width: auto;
-    border-radius: 10px;
+    border-radius: 5%;
     margin: 30px 0px 10px 0px;
     /*goal is to keep height 300 for all event images*/
 }
@@ -439,7 +453,7 @@ body {
 .event-description{
     color: #FF7B74 !important;
     font-size: clamp(6.25px, 3vw, 15px);
-    width: 900px;
+    width: 90%;
     text-align: center;
     font-weight: bold!important;
     margin-top: 5px;
@@ -454,4 +468,12 @@ body {
     position: absolute;
     left: calc(50% + clamp(0px, 23vw, 450px));
     transform: translateY(30px);
+}
+
+.upcoming{
+    margin: 2%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
