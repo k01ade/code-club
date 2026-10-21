@@ -35,7 +35,7 @@ p {
 .box1 {
     background-color: #0F4B92;
     border: 6px solid #09376e;
-    width: 80%;
+    width: 90%;
     max-width: 1000px;
     border-radius: 16px;
     display: flex;
@@ -123,6 +123,10 @@ p {
     padding-top: 0.55%;
     margin: clamp(15px, 3vw, 36px);
     text-align: center;
+    }
+
+    .box3 p{
+        font-size: 6%;
     }
 }
 
@@ -452,7 +456,7 @@ body {
 
 .event-description{
     color: #FF7B74 !important;
-    font-size: clamp(6.25px, 3vw, 15px);
+    font-size: clamp(5px, 3vw, 15px);
     width: 90%;
     text-align: center;
     font-weight: bold!important;
